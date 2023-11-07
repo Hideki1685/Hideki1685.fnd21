@@ -1,0 +1,17 @@
+/* 'use strict' */
+/* // 1行目に記載している 'use strict' は削除しないでください */
+
+body {
+  font-size: 16pt;
+}
+
+  /* まず、style.cssにこのルールを書き入れてください。 */
+
+/* ここにルールを足していきましょう。*/
+
+h1{
+  color: yellow;
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+}

@@ -1,0 +1,49 @@
+/* 'use strict' */
+/* // 1行目に記載している 'use strict' は削除しないでください */
+
+body {
+  font-size: 1.5em;
+}
+
+  /* まず、style.cssにこのルールを書き入れてください。 */
+  
+  /* ここにルールを足していきましょう。*/
+.information {
+  display: flex;
+  align-items: center;
+}
+
+.information h1 {
+  font-size: 60px;
+}
+
+h1{
+  color: yellow;
+  background-color: black;
+  max-width: 1100px;
+  max-height: 120px;
+  margin: 0 auto;
+  font-weight: normal;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+
+.photo img{
+    float: right;
+    margin: 0 50px;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.4s;
+}
+
+p{
+  background-color: yellow;
+}
+
+.photo img:hover{
+  opacity: .5;
+}
+
